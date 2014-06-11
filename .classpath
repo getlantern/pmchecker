@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/Users/ox.to.a.cart/.gradle/caches/modules-2/files-2.1/fr.free.miniupnp.miniupnp-java-mac/x86_64/1.7/96a407235350edc44efd728af77a62d1dc969fd0/x86_64-1.7-sources.jar" kind="lib" path="/Users/ox.to.a.cart/.gradle/caches/modules-2/files-2.1/fr.free.miniupnp.miniupnp-java-mac/x86_64/1.7/3750ba1d0730c4db5a52141d7ae4c9ade5fe0601/x86_64-1.7.jar" exported="true"/>
+	<classpathentry sourcepath="/Users/ox.to.a.cart/.gradle/caches/modules-2/files-2.1/fr.free.miniupnp.miniupnp-java-mac/x86_64/1.7/96a407235350edc44efd728af77a62d1dc969fd0/x86_64-1.7-sources.jar" kind="lib" path="/Users/ox.to.a.cart/.gradle/caches/modules-2/files-2.1/fr.free.miniupnp.natpmp-java-mac/x86_64/1.7/c0595e5849323df201189d4a9ac595ee0236e261/x86_64-1.7.jar" exported="true"/>
+</classpath>

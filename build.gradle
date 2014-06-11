@@ -1,0 +1,29 @@
+version = "0.1.0"
+
+buildscript {
+    repositories { jcenter() }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:0.8'
+    }
+}
+
+repositories { 
+    mavenCentral()
+    maven {
+        name 'Lantern'
+        url 'https://s3.amazonaws.com/lantern-mvn-repo/release'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'shadow'
+
+dependencies {
+    compile group: "fr.free.miniupnp.miniupnp-java-${platform}", name: "${arch}", version: "1.7"
+    compile group: "fr.free.miniupnp.natpmp-java-${platform}", name: "${arch}", version: "1.7" 
+}
+
+jar {
+    manifest { attributes 'Main-Class': 'org.lantern.pmchecker.PMChecker' }
+}
